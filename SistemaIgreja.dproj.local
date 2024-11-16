@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/03/25 12:14:35.000.459,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 12:15:35.000.732,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Login.pas</Transaction>
+    <Transaction>2019/03/25 12:15:35.000.732,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Login.dfm</Transaction>
+    <Transaction>2019/03/25 12:16:08.000.972,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\SistemaIgreja.dproj</Transaction>
+    <Transaction>2019/03/25 13:03:21.000.458,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 13:03:33.000.239,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Principal.pas</Transaction>
+    <Transaction>2019/03/25 13:03:33.000.239,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Principal.dfm</Transaction>
+    <Transaction>2019/03/25 14:33:49.000.557,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 14:34:46.000.023,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Usuarios.pas</Transaction>
+    <Transaction>2019/03/25 14:34:46.000.023,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Usuarios.dfm</Transaction>
+    <Transaction>2019/03/25 15:28:56.000.223,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 15:34:15.000.078,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Matriz.dfm</Transaction>
+    <Transaction>2019/03/25 15:34:15.000.078,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Matriz.pas</Transaction>
+    <Transaction>2019/03/25 15:41:15.000.675,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 15:41:46.000.495,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Modulo.dfm</Transaction>
+    <Transaction>2019/03/25 15:41:46.000.495,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Modulo.pas</Transaction>
+    <Transaction>2019/03/25 18:50:52.000.636,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/25 18:51:07.000.470,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Filial.dfm</Transaction>
+    <Transaction>2019/03/25 18:51:07.000.470,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Filial.pas</Transaction>
+    <Transaction>2019/03/26 13:23:55.021,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 13:24:16.875,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Funcoes.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 13:24:16.875,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Funcoes.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm</Transaction>
+    <Transaction>2019/03/26 16:18:55.141,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 16:20:01.113,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Pessoas.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm</Transaction>
+    <Transaction>2019/03/26 16:20:01.113,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Cadastros\Pessoas.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 19:01:51.615,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 19:15:06.969,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Movimentacoes\Entradas.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm</Transaction>
+    <Transaction>2019/03/26 19:15:06.969,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Movimentacoes\Entradas.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 20:33:19.613,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 20:34:32.729,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Movimentacoes\Movimentacoes.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.pas</Transaction>
+    <Transaction>2019/03/26 20:34:32.729,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Movimentacoes\Movimentacoes.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Igreja\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

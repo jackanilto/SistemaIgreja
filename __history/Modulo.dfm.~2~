@@ -1,0 +1,139 @@
+object dm: Tdm
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 350
+  Width = 728
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=sistema_igreja'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 8
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\lib\libmySQL.dll'
+    Left = 184
+    Top = 8
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 296
+    Top = 8
+  end
+  object tb_matriz: TFDTable
+    IndexFieldNames = 'id'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'sistema_igreja.matriz'
+    TableName = 'sistema_igreja.matriz'
+    Left = 64
+    Top = 64
+    object tb_matrizid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ProviderFlags = [pfInWhere, pfInKey]
+    end
+    object tb_matriznome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 30
+    end
+    object tb_matrizendereco: TStringField
+      FieldName = 'endereco'
+      Origin = 'endereco'
+      Required = True
+      Size = 65
+    end
+    object tb_matriznumero: TStringField
+      FieldName = 'numero'
+      Origin = 'numero'
+      Required = True
+      Size = 5
+    end
+    object tb_matrizbairro: TStringField
+      FieldName = 'bairro'
+      Origin = 'bairro'
+      Required = True
+      Size = 25
+    end
+    object tb_matrizcidade: TStringField
+      FieldName = 'cidade'
+      Origin = 'cidade'
+      Required = True
+      Size = 25
+    end
+    object tb_matriztelefone: TStringField
+      FieldName = 'telefone'
+      Origin = 'telefone'
+      Required = True
+    end
+  end
+  object DSMatriz: TDataSource
+    DataSet = query_matriz
+    Left = 88
+    Top = 152
+  end
+  object query_matriz: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from matriz')
+    Left = 24
+    Top = 152
+    object query_matrizid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ProviderFlags = [pfInWhere, pfInKey]
+      Visible = False
+    end
+    object query_matriznome: TStringField
+      DisplayLabel = 'Nome'
+      DisplayWidth = 17
+      FieldName = 'nome'
+      Origin = 'nome'
+      Required = True
+      Size = 30
+    end
+    object query_matrizendereco: TStringField
+      DisplayLabel = 'Endere'#231'o'
+      DisplayWidth = 20
+      FieldName = 'endereco'
+      Origin = 'endereco'
+      Required = True
+      Size = 65
+    end
+    object query_matriznumero: TStringField
+      DisplayLabel = 'N'#250'mero'
+      DisplayWidth = 8
+      FieldName = 'numero'
+      Origin = 'numero'
+      Required = True
+      Size = 5
+    end
+    object query_matrizbairro: TStringField
+      DisplayLabel = 'Bairro'
+      DisplayWidth = 12
+      FieldName = 'bairro'
+      Origin = 'bairro'
+      Required = True
+      Size = 25
+    end
+    object query_matrizcidade: TStringField
+      DisplayLabel = 'Cidade'
+      DisplayWidth = 15
+      FieldName = 'cidade'
+      Origin = 'cidade'
+      Required = True
+      Size = 25
+    end
+    object query_matriztelefone: TStringField
+      DisplayLabel = 'Telefone'
+      DisplayWidth = 15
+      FieldName = 'telefone'
+      Origin = 'telefone'
+      Required = True
+    end
+  end
+end

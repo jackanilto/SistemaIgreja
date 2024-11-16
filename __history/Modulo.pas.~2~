@@ -1,0 +1,56 @@
+unit Modulo;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MySQL,
+  FireDAC.Phys.MySQLDef, FireDAC.VCLUI.Wait, FireDAC.Comp.UI, Data.DB,
+  FireDAC.Comp.Client, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
+  FireDAC.DApt, FireDAC.Comp.DataSet;
+
+type
+  Tdm = class(TDataModule)
+    FDConnection1: TFDConnection;
+    FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink;
+    FDGUIxWaitCursor1: TFDGUIxWaitCursor;
+    tb_matriz: TFDTable;
+    tb_matrizid: TFDAutoIncField;
+    tb_matriznome: TStringField;
+    tb_matrizendereco: TStringField;
+    tb_matriznumero: TStringField;
+    tb_matrizbairro: TStringField;
+    tb_matrizcidade: TStringField;
+    tb_matriztelefone: TStringField;
+    DSMatriz: TDataSource;
+    query_matriz: TFDQuery;
+    query_matrizid: TFDAutoIncField;
+    query_matriznome: TStringField;
+    query_matrizendereco: TStringField;
+    query_matriznumero: TStringField;
+    query_matrizbairro: TStringField;
+    query_matrizcidade: TStringField;
+    query_matriztelefone: TStringField;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dm: Tdm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure Tdm.DataModuleCreate(Sender: TObject);
+begin
+FDConnection1.Connected := true;
+end;
+
+end.

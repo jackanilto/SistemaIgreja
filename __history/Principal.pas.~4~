@@ -1,0 +1,70 @@
+unit Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.Menus;
+
+type
+  TFrmPrincipal = class(TForm)
+    Image1: TImage;
+    MainMenu1: TMainMenu;
+    Cadastros1: TMenuItem;
+    Movimentaes1: TMenuItem;
+    Relatrios1: TMenuItem;
+    Sair1: TMenuItem;
+    Usurios1: TMenuItem;
+    FunoEclesistica1: TMenuItem;
+    Matriz1: TMenuItem;
+    Filiais1: TMenuItem;
+    Entradas1: TMenuItem;
+    Sadas1: TMenuItem;
+    ConsultarMovimentaes1: TMenuItem;
+    Logout1: TMenuItem;
+    Movimentaes2: TMenuItem;
+    MembrosFuno1: TMenuItem;
+    procedure Logout1Click(Sender: TObject);
+    procedure Usurios1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses Login, Usuarios;
+
+procedure TFrmPrincipal.Logout1Click(Sender: TObject);
+begin
+if FrmLogin = nil then
+begin
+FrmLogin := TFrmLogin.Create(self);
+FrmLogin.ShowModal;
+Close();
+end
+else
+begin
+FrmLogin.WindowState := wsNormal;
+FrmLogin.BringToFront;
+FrmLogin.Focused;
+Close();
+end;
+
+
+end;
+
+procedure TFrmPrincipal.Usurios1Click(Sender: TObject);
+begin
+FrmUsuarios := TFrmUsuarios.Create(self);
+FrmUsuarios.ShowModal;
+end;
+
+end.
